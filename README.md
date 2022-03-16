@@ -3,7 +3,8 @@ Single-cell RNA sequencing (scRNA-seq) provides high-throughput gene expression 
 
 
 
-![image-20220312212945832](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20220312212945832.png)
+![image](https://user-images.githubusercontent.com/65069252/158551648-e833c769-4396-4e26-957c-f38996c8c68d.png)
+
 
 
 
