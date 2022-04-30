@@ -13,7 +13,9 @@ Single-cell RNA sequencing (scRNA-seq) provides high-throughput gene expression 
 ### pip
 
 ```
-$ pip install -r requirements
+$ conda create -n scMGCA_env python=3.6.8
+$ cond activate scMGCA_env
+$ pip install -r requirements.txt
 $ pip install scMGCA
 ```
 
@@ -26,7 +28,6 @@ You can run the scTAG from the command line:
 $ from scMGCA.run import train
 $ train(data,highly_genes=500,pretrain_epochs=1000,maxiter=300)
 ```
-
 
 
 ## Example
@@ -50,3 +51,6 @@ The result will give NMI and ARI
 | pretrain epochs | Number of pretrain epochs                                    |
 |     maxiter     | Number of training epochs                                    |
 
+## Data availability
+
+The real data sets we used can be download in <a href="https://drive.google.com/drive/folders/1BIZxZNbouPtGf_cyu7vM44G5EcbxECeu">data</a>.
