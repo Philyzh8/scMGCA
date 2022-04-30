@@ -12,7 +12,7 @@ Single-cell RNA sequencing (scRNA-seq) provides high-throughput gene expression 
 
 ```
 $ conda create -n scMGCA_env python=3.6.8
-$ cond activate scMGCA_env
+$ conda activate scMGCA_env
 $ pip install -r requirements.txt
 $ pip install scMGCA
 ```
