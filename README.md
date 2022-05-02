@@ -60,7 +60,7 @@ You can run the `scMGCA` from the command line:
 
 ```
 $ from scMGCA.run import train
-$ train(data,highly_genes=500,pretrain_epochs=1000,maxiter=300)
+$ train(data, highly_genes=500, pretrain_epochs=1000, maxiter=300)
 ```
 
 ### Arguments
@@ -78,7 +78,7 @@ $ train(data,highly_genes=500,pretrain_epochs=1000,maxiter=300)
 ```
 $ from scMGCA.run import train
 $ data = './dataset/Quake_10x_Bladder/data.h5'
-$ train(data,highly_genes=500,pretrain_epochs=1000,maxiter=300)
+$ train(data, highly_genes=500, pretrain_epochs=1000, maxiter=300)
 ```
 
 The result will give NMI and ARI
