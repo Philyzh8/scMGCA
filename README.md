@@ -77,7 +77,7 @@ $ train(data,highly_genes=500,pretrain_epochs=1000,maxiter=300)
 
 ```
 $ from scMGCA.run import train
-$ data = './dataset/Quake_10x_Limb_Muscle/data.h5'
+$ data = './dataset/Quake_10x_Bladder/data.h5'
 $ train(data,highly_genes=500,pretrain_epochs=1000,maxiter=300)
 ```
 
