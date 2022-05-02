@@ -31,7 +31,6 @@ This package is supported for *Linux*. The package has been tested on the follow
 
 ### Python Dependencies
 `scMGCA` mainly depends on the Python scientific stack.
-
 ```
 numpy
 scipy
@@ -40,7 +39,7 @@ scikit-learn
 pandas
 sklearn
 ```
-Specific please see <a href="https://drive.google.com/drive/folders/1BIZxZNbouPtGf_cyu7vM44G5EcbxECeu">requirement</a>.
+Specific please see <a href="https://github.com/Philyzh8/scMGCA/blob/master/requirements.txt">requirement</a>.
 
 # Installation Guide:
 
@@ -83,8 +82,6 @@ $ train(data,highly_genes=500,pretrain_epochs=1000,maxiter=300)
 ```
 
 The result will give NMI and ARI
-
-
 
 
 
