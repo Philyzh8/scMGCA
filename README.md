@@ -9,7 +9,6 @@
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
 - [Demo](#Demo)
-- [Setting up the development environment](#setting-up-the-development-environment)
 - [Data Availability](#data-availability)
 - [License](#license)
 
