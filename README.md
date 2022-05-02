@@ -1,7 +1,19 @@
 # scMGCA
 
 [![PyPI badge](https://img.shields.io/pypi/v/scMGCA.svg)](https://pypi.org/project/scMGCA/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
+`scMGCA` is a Python package containing tools for clustering using multiscale graph correlation and other statistical tests, that is capable of dealing with high dimensional and multivariate data.
+
+- [Overview](#overview)
+- [Documentation](#documentation)
+- [System Requirements](#system-requirements)
+- [Installation Guide](#installation-guide)
+- [Setting up the development environment](#setting-up-the-development-environment)
+- [License](#license)
+- [Issues](https://github.com/neurodata/mgcpy/issues)
+
+# Overview
 Single-cell RNA sequencing (scRNA-seq) provides high-throughput gene expression information to explore cellular heterogeneity at the individual cell level. A major challenge in characterizing high-throughput gene expression data arises from the curse of dimensionality, and the prevalence of dropout events. To address these concerns, we developed a single-cell clustering method (scMGCA) based on a graph-embedding autoencoder that simultaneously learns cell–cell topology representation and cluster assignments. In scMGCA, we propose a graph convolutional autoencoder to preserve the topological information of cells from the embedded space in multinomial distribution, and employs the positive pointwise mutual information (PPMI) matrix for cell graph augmentation. Experiments show that scMGCA is accurate and effective for cell segregation and superior to other state-of-the-art models across multiple platforms. In addition, we perform genomic interpretation on the key compressed transcriptomic space of the graph-embedding autoencoder to demonstrate the underlying gene regulation mechanism. In a pancreatic ductal adenocarcinoma (PDAC) dataset, with 8921 individual pancreatic cells from primary PDAC tumors and control pancreases, scMGCA successfully provided annotations on the specific cell types and revealed differential gene expression levels across multiple tumor-associated and cell signalling pathways in PDAC progression through single-cell trajectory and gene set enrichment analysis.
 
 
@@ -55,3 +67,7 @@ The result will give NMI and ARI
 ## Data availability
 
 The real data sets we used can be download in <a href="https://drive.google.com/drive/folders/1BIZxZNbouPtGf_cyu7vM44G5EcbxECeu">data</a>.
+
+# License
+
+This project is covered under the **MIT License**.
