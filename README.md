@@ -56,7 +56,7 @@ $ pip install scMGCA
 
 ### Usage
 
-You can run the scMGCA from the command line:
+You can run the `scMGCA` from the command line:
 
 ```
 $ from scMGCA.run import train
