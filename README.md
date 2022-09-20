@@ -57,14 +57,7 @@ $ pip install scMGCA
 + Correct the batch effect of data from different scRNA-seq protocols. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/requirements.txt">demo_batch.py</a>.
 + Analysis of the mouse brain data with 1.3 million cells. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/requirements.txt">demo_scale.py</a>.
 + Provide a automatic supershell search algorithm. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/requirements.txt">demo_para.py</a>.
-### Usage
 
-You can run the `scMGCA` from the command line:
-
-```
-$ from scMGCA.run import train
-$ train(data, highly_genes=500, pretrain_epochs=1000, maxiter=300)
-```
 
 ### Arguments
 
@@ -76,15 +69,6 @@ $ train(data, highly_genes=500, pretrain_epochs=1000, maxiter=300)
 |     maxiter     | Number of training epochs                                    |
 
 
-### Example
-
-```
-$ from scMGCA.run import train
-$ data = './dataset/Quake_10x_Bladder/data.h5'
-$ train(data, highly_genes=500, pretrain_epochs=1000, maxiter=300)
-```
-
-The result will give NMI and ARI
 
 
 
