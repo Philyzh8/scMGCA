@@ -8,7 +8,7 @@
 - [Overview](#overview)
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
-- [Demo](#Demo)
+- [Usage](#Usage)
 - [Data Availability](#data-availability)
 - [License](#license)
 
@@ -51,8 +51,12 @@ $ pip install -r requirements.txt
 $ pip install scMGCA
 ```
 
-# Demo
-
+# Usage
+`scMGCA` is a deep graph embedding learning method for single-cell clustering, which can be used to:
++ Single-cell data clustering. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/requirements.txt">demo.py</a>.
++ Correct the batch effect of data from different scRNA-seq protocols. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/requirements.txt">demo_batch.py</a>.
++ Analysis of the mouse brain data with 1.3 million cells. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/requirements.txt">demo_scale.py</a>.
++ Provide a automatic supershell search algorithm. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/requirements.txt">demo_para.py</a>.
 ### Usage
 
 You can run the `scMGCA` from the command line:
