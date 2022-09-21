@@ -1,3 +1,4 @@
+import math
 import numpy as np
 import pandas as pd
 from scipy import sparse as sp
@@ -5,17 +6,18 @@ from sklearn.neighbors import kneighbors_graph
 from scMGCA.utils import dopca
 import scanpy as sc
 from anndata import AnnData
+from spektral.layers import GraphConv
 
-def get_adj(count, k=15, pca=50, mode="connectivity"):
+def get_adj(count, k=15, pca=50, mode="connectivity", metric="euclidean", s=2):
     if pca:
         countp = dopca(count, dim=pca)
     else:
         countp = count
-    A = kneighbors_graph(countp, k, mode=mode, metric="euclidean", include_self=True)
+    A = kneighbors_graph(countp, k, mode=mode, metric=metric, include_self=True)
     adj = A.toarray()
 
     node = adj.shape[0]
-    A = random_surf(adj, 2, 0.98)
+    A = random_surf(adj, s, 0.98)
     ppmi = PPMI_matrix(A)
     for i in range(node):
         ppmi[i] = ppmi[i]/(np.max(ppmi[i]))
@@ -74,3 +76,14 @@ def PPMI_matrix(A):
     PPMI[PPMI < 0.0] = 0.0
 
     return PPMI
+
+def get_adj_batch(count, batch):
+    adj=[]
+    adj_n=[]
+    num_batch = int(math.ceil(1.0*count.shape[0]/batch))
+    for batch_idx in range(num_batch):
+        xbatch = count[batch_idx*batch : min((batch_idx+1)*batch, count.shape[0])]
+        adjbatch = get_adj(xbatch)
+        adj.append(adjbatch)
+        adj_n.append(GraphConv.preprocess(adjbatch))
+    return adj, adj_n
