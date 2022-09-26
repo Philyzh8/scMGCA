@@ -57,6 +57,7 @@ $ pip install scMGCA
 + Correct the batch effect of data from different scRNA-seq protocols. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/demo_batch.py">demo_batch.py</a>.
 + Analysis of the mouse brain data with 1.3 million cells. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/demo_scale.py">demo_scale.py</a>.
 + Provide a automatic supershell search algorithm. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/demo_para.py">demo_para.py</a>.
+We give users some suggestions for running in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/demo_para.md">tutorial.md</a>.
 
 
 ### Arguments
