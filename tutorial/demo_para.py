@@ -43,7 +43,7 @@ if __name__ == "__main__":
     
     def hyperpara(argsDict):
         parser = argparse.ArgumentParser(description="train", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-        parser.add_argument("--dataname", default = "Pollen", type = str)
+        parser.add_argument("--dataname", default = "Quake_10x_Bladder", type = str)
         parser.add_argument("--highly_genes", default = 500, type=int)
         parser.add_argument("--pretrain_epochs", default = 1000, type=int)
         parser.add_argument("--maxiter", default = 300, type=int)
