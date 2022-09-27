@@ -61,19 +61,6 @@ $ pip install scMGCA
 We give users some suggestions for running in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/tutorial.md">tutorial.md</a>.
 
 
-### Arguments
-
-|    Parameter    | Introduction                                                 |
-| :-------------: | ------------------------------------------------------------ |
-|      data       | A h5 file. Contains a matrix of scRNA-seq expression values,true labels, and other information. By default, genes are assumed to be represented by columns and samples are assumed to be represented by rows. |
-|  highly genes   | Number of genes selected                                     |
-| pretrain epochs | Number of pretrain epochs                                    |
-|     maxiter     | Number of training epochs                                    |
-
-
-
-
-
 # Data Availability
 
 The real data sets we used can be download in <a href="https://drive.google.com/drive/folders/1BIZxZNbouPtGf_cyu7vM44G5EcbxECeu">data</a>.
