@@ -92,7 +92,7 @@ tomli==1.2.3
 tqdm==4.41.1
 traitlets==4.3.3
 typing-extensions==3.7.4.3
-umap-learn==0.5.3
+umap-learn==0.4.2
 urllib3==1.26.9
 wcwidth==0.2.5
 Werkzeug==2.0.3
