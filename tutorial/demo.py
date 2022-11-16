@@ -57,7 +57,7 @@ if __name__ == "__main__":
     centers = init_center(args, latent_pre, adj_n, cluster_number)
     
     # Clustering training
-    Cluster_predicted=model.train(epochs=args.maxiter, centers=centers)
+    Cluster_predicted = model.train(epochs=args.maxiter, centers=centers)
     
     y = list(map(int, y))
     Cluster_predicted.y_pred = np.array(Cluster_predicted.y_pred)
