@@ -58,7 +58,7 @@ if __name__ == "__main__":
     centers = np.asarray(Mergefeature.groupby("Group").mean())
 
     # Clustering training
-    Cluster_predicted=model.train(epochs=args.maxiter, W_a=0.6, centers=centers)
+    Cluster_predicted = model.train(epochs=args.maxiter, W_a=0.6, centers=centers)
     
     # latent representation
     latent = Cluster_predicted.latent
