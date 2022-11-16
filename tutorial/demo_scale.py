@@ -58,7 +58,7 @@ if __name__ == "__main__":
     centers = computeCentroids(latent_pre, labels)
     
     # Clustering training
-    Cluster_predicted=model.train(count, adj, adj_n, epochs=args.maxiter, centers=centers)
+    Cluster_predicted = model.train(count, adj, adj_n, epochs=args.maxiter, centers=centers)
     
     latent = Cluster_predicted.latent
     prelabel = Cluster_predicted.y_pred
