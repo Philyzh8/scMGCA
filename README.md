@@ -38,7 +38,7 @@ scikit-learn
 pandas
 sklearn
 ```
-Specific please see <a href="https://github.com/Philyzh8/scMGCA/blob/master/requirements.txt">requirement</a>.
+For specific setting, please see <a href="https://github.com/Philyzh8/scMGCA/blob/master/requirements.txt">requirement</a>.
 
 # Installation Guide:
 
