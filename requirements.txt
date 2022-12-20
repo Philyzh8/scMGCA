@@ -74,7 +74,6 @@ seaborn==0.11.1
 setuptools-scm==6.4.2
 sinfo==0.3.4
 six==1.15.0
-sklearn==0.0
 spektral==0.6.1
 statsmodels==0.12.2
 stdlib-list==0.8.0
