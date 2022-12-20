@@ -36,7 +36,8 @@ scipy
 tensorflow
 scikit-learn
 pandas
-sklearn
+scanpy
+anndata
 ```
 For specific setting, please see <a href="https://github.com/Philyzh8/scMGCA/blob/master/requirements.txt">requirement</a>.
 
