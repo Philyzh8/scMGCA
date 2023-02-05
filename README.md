@@ -70,3 +70,19 @@ The real data sets we used can be download in <a href="https://doi.org/10.5281/z
 # License
 
 This project is covered under the **MIT License**.
+
+# Citation
+
+```
+@article{yu2023topological,
+  title={Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA},
+  author={Yu, Zhuohan and Su, Yanchi and Lu, Yifu and Yang, Yuning and Wang, Fuzhou and Zhang, Shixiong and Chang, Yi and Wong, Ka-Chun and Li, Xiangtao},
+  journal={Nature Communications},
+  volume={14},
+  number={1},
+  pages={400},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+```
+
